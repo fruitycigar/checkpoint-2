@@ -69,6 +69,85 @@ header img{
     width: 100%;
     height: 50%;
 }
+.background {
+    filter: brightness(50%);
+}
+/* Social Icons */
+.social-icons {
+    position: absolute;
+    top: 30px;
+    left: 620px;
+}
+.icon-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:white;
+    margin: 0 5px;
+}
+.icon-circle i {
+    margin: 10px 0;
+}
+/* Upper Navigation bar */
+.navbar {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    background-color: white;
+    height: 90px;
+    width: 1000px;
+}
+.navbar img {
+    height: 90px;
+    width: 90px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.navbar span {
+    vertical-align: middle;
+    color: #ec523e;
+    font-weight: 900;
+    font-size: 30px;
+}
+.navbar a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6d6d6d;
+    margin-left: 20px;
+}
+.navbar nav {
+    margin-right: 30px;
+}
+.navbar .home {
+    color: #ec523e;
+}
+.digital {
+    position: absolute;
+    top: 390px;
+    left: 550px;
+}
+.digital .heading {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 34px;
+}
+.digital span {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.top-btn {
+    background-color: #ec523e;
+    color: white;
+    font-weight: 800;
+    border: none;
+    padding: 15px 15px;
+    position: absolute;
+    top: 520px;
+    left: 650px;
+}
 /* Services */
 .services {
     padding: 100px 0px;
@@ -196,13 +275,98 @@ font-weight: 100;
     text-align: left;
     font-size: 15px;
 }
-#top {
+.top {
     position: fixed;
     right: 40px;
     bottom: 40px;
     background-color: hsl(7deg 80% 58%);
     color: white;
     padding: 10px;
-    font-size: 12px;
+    font-size: 14px;
     border: none;
+}
+.top a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+/* Gallery page (2) */
+aside {
+    background-color: #ec523e;
+    height: 100vh;
+    width: 45vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home {
+    padding: 30px 30px;
+}
+.home img {
+    vertical-align: middle;
+    height: 80px ;
+    width: 80px ;
+}
+.home span {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.home button {
+    background-color: #ec523e;
+    padding: 5px 15px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.bio {
+    padding: 30px 30px;
+}
+.bio p {
+    margin: 15px 0;
+}
+.bio .self {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: left;
+}
+.bio .text {
+    text-align: left;
+}
+.gallery-icons {
+    display: flex;
+}
+.gallery-icon-circle {
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.gallery-icon-circle i {
+    margin: 10px 0;
+    color: white;
+}
+.gallery h1 {
+    font-size: 44px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    top: 40px;
+    left: 800px;
+}
+.long-col {
+    height: 500px;
+    width: 300px;
+    border:2px solid black;
+}
+.long-col img {
+    width: 100%;
 }

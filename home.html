@@ -8,8 +8,42 @@
         <script src="https://kit.fontawesome.com/91066ab110.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
-            <img src="assets/media/banner.jpg" alt="beach-banner">
+        <header id="up">
+            <img class="background" src="assets/media/banner.jpg" alt="beach-banner">
+            <div class="social-icons flex">
+                <div class="icon-circle">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="fab fa-dribbble"></i>
+                </div>
+            </div>
+            <div class="navbar flex">
+                <div>
+                    <img src="assets/media/logo.png" alt="">
+                    <span>FLEX</span>
+                </div>
+                <nav>
+                    <a class="home" href="#">home</a>
+                    <a href="#">services</a>
+                    <a href="#">portfolio</a>
+                    <a href="#">team</a>
+                    <a href="gallery.html">gallery</a>
+                    <a href="#">contact</a>
+                </nav>
+            </div>
+            <div class="digital">
+                <h1 class="heading">digital marketing</h1>
+                <hr>
+                <span>more visitors to your website</span>
+            </div>
+            <button class="top-btn">LET US DESIGN</button>
         </header>
         <main>
             <section class="services">
@@ -126,7 +160,9 @@
         <footer>
             <div class="container flex">
                 <small class="small">Copyright &copy; Company Name . Design: TemplateMo</small>
-                <button id="top">BACK TO TOP</button>
+                <button class="top">
+                    <a href="#up">BACK TO TOP</a>
+                    </button>
             </div>
         </footer>
     </body>
